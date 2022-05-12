@@ -1,0 +1,30 @@
+@each $key, $var in $colors-map {
+    .text-#{$key} {
+        color: $var;
+    }
+
+    .bg-#{$key} {
+        background-color: $var;
+    }
+
+    // light vars
+    @for $i from 1 through 3 {
+        .text-#{$key}-light-#{$i} {
+            color: mix(white, $var, $i * 10);
+        }
+        .bg-#{$key}-light-#{$i} {
+            background-color: mix(white, $var, $i * 10);
+        }
+    }
+
+    // dark vars
+    @for $i from 1 through 3 {
+        .text-#{$key}-dark-#{$i} {
+            color: mix(black, $var, $i * 10);
+        }
+        .bg-#{$key}-dark-#{$i} {
+            background-color: mix(black, $var, $i * 10);
+        }
+    }
+    
+}

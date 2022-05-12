@@ -1,3 +1,4 @@
+@use 'sass:math';
 @import '../variables';
 
 .card {
@@ -6,8 +7,11 @@
     border: $base-border-thickness solid #ddd;
     box-shadow: $base-box-shadow;
     font-size: $base-font-size;
+    border-radius: math.div($base-border-radius, 2);
+    margin: $base-margin;
 
     .card-title {
+        font-size: $font-size-xl;
         padding-bottom: $base-padding;
     }
 
