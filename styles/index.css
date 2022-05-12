@@ -25,6 +25,9 @@ a {
 .bg-primary-light-1 {
   background-color: #477cf0;
 }
+.bg-primary-light-1:hover {
+  background-color: #326dee;
+}
 
 .text-primary-light-2 {
   color: #5b8af1;
@@ -33,6 +36,9 @@ a {
 .bg-primary-light-2 {
   background-color: #5b8af1;
 }
+.bg-primary-light-2:hover {
+  background-color: #326dee;
+}
 
 .text-primary-light-3 {
   color: #7099f3;
@@ -40,6 +46,9 @@ a {
 
 .bg-primary-light-3 {
   background-color: #7099f3;
+}
+.bg-primary-light-3:hover {
+  background-color: #326dee;
 }
 
 .text-primary-dark-1 {
@@ -81,6 +90,9 @@ a {
 .bg-secondary-light-1 {
   background-color: #31ce94;
 }
+.bg-secondary-light-1:hover {
+  background-color: #1ac888;
+}
 
 .text-secondary-light-2 {
   color: #48d3a0;
@@ -89,6 +101,9 @@ a {
 .bg-secondary-light-2 {
   background-color: #48d3a0;
 }
+.bg-secondary-light-2:hover {
+  background-color: #1ac888;
+}
 
 .text-secondary-light-3 {
   color: #5fd9ac;
@@ -96,6 +111,9 @@ a {
 
 .bg-secondary-light-3 {
   background-color: #5fd9ac;
+}
+.bg-secondary-light-3:hover {
+  background-color: #1ac888;
 }
 
 .text-secondary-dark-1 {
@@ -137,6 +155,9 @@ a {
 .bg-purple-light-1 {
   background-color: #8d1a8d;
 }
+.bg-purple-light-1:hover {
+  background-color: purple;
+}
 
 .text-purple-light-2 {
   color: #993399;
@@ -145,6 +166,9 @@ a {
 .bg-purple-light-2 {
   background-color: #993399;
 }
+.bg-purple-light-2:hover {
+  background-color: purple;
+}
 
 .text-purple-light-3 {
   color: #a64da6;
@@ -152,6 +176,9 @@ a {
 
 .bg-purple-light-3 {
   background-color: #a64da6;
+}
+.bg-purple-light-3:hover {
+  background-color: purple;
 }
 
 .text-purple-dark-1 {
@@ -193,6 +220,9 @@ a {
 .bg-red-light-1 {
   background-color: #d73d63;
 }
+.bg-red-light-1:hover {
+  background-color: #d32752;
+}
 
 .text-red-light-2 {
   color: #dc5275;
@@ -201,6 +231,9 @@ a {
 .bg-red-light-2 {
   background-color: #dc5275;
 }
+.bg-red-light-2:hover {
+  background-color: #d32752;
+}
 
 .text-red-light-3 {
   color: #e06886;
@@ -208,6 +241,9 @@ a {
 
 .bg-red-light-3 {
   background-color: #e06886;
+}
+.bg-red-light-3:hover {
+  background-color: #d32752;
 }
 
 .text-red-dark-1 {
