@@ -402,3 +402,83 @@ a {
   background-color: #d32752;
   color: white;
 }
+
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: 0.75rem;
+}
+
+.p-2 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.p-4 {
+  padding: 4.5rem;
+}
+
+.p-5 {
+  padding: 6rem;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: 0.75rem;
+}
+
+.m-2 {
+  margin: 1.5rem;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.m-4 {
+  margin: 4.5rem;
+}
+
+.m-5 {
+  margin: 6rem;
+}
+
+.o-10 {
+  opacity: 0.1;
+}
+
+.o-30 {
+  opacity: 0.3;
+}
+
+.o-50 {
+  opacity: 0.5;
+}
+
+.o-70 {
+  opacity: 0.7;
+}
+
+.o-100 {
+  opacity: 100;
+}
+
+.font-sm {
+  font-size: 1rem;
+}
+
+.font-lg {
+  font-size: 1.2rem;
+}
+
+.font-xl {
+  font-size: 3rem;
+}

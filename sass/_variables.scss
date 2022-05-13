@@ -12,9 +12,9 @@ $colors-map: (
     "red": $error
 );
 
-@debug map-get($colors-map, $key: "primary");
-@debug map-has-key($map: $colors-map, $key: "sec");
-@debug map-keys($map: $colors-map);
+// @debug map-get($colors-map, $key: "primary");
+// @debug map-has-key($map: $colors-map, $key: "sec");
+// @debug map-keys($map: $colors-map);
 
 // spacing
 $base-padding: 0.75rem;

@@ -13,6 +13,7 @@
 @import './components/buttons';
 
 // utilities
+@import 'utilities';
 
-@debug 'hello';
-@debug math.div($font-size-xl, 2);
+// @debug 'hello';
+// @debug math.div($font-size-xl, 2);
